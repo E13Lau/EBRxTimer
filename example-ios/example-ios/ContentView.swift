@@ -9,9 +9,8 @@ import SwiftUI
 import EBRxTimer
 
 struct ContentView: View {
-    var model = EBRxTimer()
     var body: some View {
-        Text(model.text)
+        Text("Hello")
             .padding()
     }
 }
